@@ -1,0 +1,32 @@
+.section-page.locations {
+  @include clearfix;
+  background-color: $sour;
+  position: relative;
+  padding-bottom: 0 !important;
+  padding-top: 0 !important;
+
+  .location-map {
+    @include span-columns(12);
+
+    @include media($medium-media) {
+      @include span-columns(6);
+    }
+
+    background-color: $cool;
+
+    .map {
+      padding-bottom: 100%;
+    }
+  }
+
+  .location-directory {
+    @include span-columns(12);
+    
+    @include media($medium-media) {
+      @include span-columns(6);
+    }
+      
+    color: $deep;
+    padding: 2rem;
+  }
+}

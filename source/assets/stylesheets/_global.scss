@@ -1,0 +1,44 @@
+body {
+  color: #fff;
+}
+
+.content {
+
+}
+
+.section-page {
+  padding: 1rem 0 3rem;
+
+  .container {
+    @include outer-container;
+  }
+
+  .inner {
+    @include span-columns(12);
+    padding: 1em;
+  }
+}
+
+.section-header {
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
+}
+
+footer.footer {
+  background-color: $deep;
+
+  .container {
+    @include outer-container;
+    text-align: center;
+  }
+
+  .inner {
+    @include span-columns(12);
+    padding: 1em;
+  }
+}
+
+.align-right {
+  float: right !important;
+}

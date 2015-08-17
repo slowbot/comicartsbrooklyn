@@ -1,0 +1,72 @@
+.section-page.featured {
+  background-color: $cool;
+
+  .container {
+    @include outer-container;
+  }
+
+  .inner {
+    @include span-columns(12);
+    padding: 1em;
+  }  
+}
+
+.featured-article {
+  @include span-columns(12);
+
+  @include media($small-media) {
+    @include span-columns(6);
+  }
+
+  &-meta {
+    @include span-columns(12);
+      
+    @include media($small-media) {
+      @include span-columns(4);
+    }   
+
+    .date {
+      text-transform: uppercase;
+
+      &-day {
+        @include responsive-text-size('alpha');
+        font-family: $heading-font-family;
+        font-weight: 800;
+      }
+
+      &-month {
+        @include responsive-text-size('beta');
+        font-family: $heading-font-family;
+        font-weight: 700;
+      }
+    }
+
+    .place {
+      &-title {
+        font-family: $alt-heading-font-family;
+        font-weight: normal;
+      }
+
+      &-time {
+        @include responsive-text-size('beta');
+        font-family: $heading-font-family;
+        font-weight: 700;
+      }
+    }
+  }
+
+  &-content {
+    @include span-columns(12);
+    
+    @include media($small-media) {
+      @include span-columns(8);
+    }  
+
+    h1 {
+      @include responsive-text-size('beta');
+      font-family: $alt-heading-font-family;
+      font-weight: normal;
+      padding-right: 2rem;
+    }
+  }
+}

@@ -1,0 +1,25 @@
+.section-page.marquee {
+  background-color: $vibrant;
+
+  .container {
+    @include outer-container;
+    text-align: center;
+  }
+
+  .inner {
+    @include span-columns(12);
+    padding: 1em;
+  }
+
+  h1 {
+    @include responsive-text-size('gamma');
+    margin-top: 2rem;
+  }
+
+  .big-names {
+    @include responsive-text-size('alpha');
+    font-family: $heading-font-family;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+}
