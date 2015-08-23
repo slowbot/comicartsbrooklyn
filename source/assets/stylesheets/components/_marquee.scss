@@ -25,5 +25,25 @@
     font-family: $heading-font-family;
     text-transform: uppercase;
     font-weight: 700;
+
+    span {
+      display: inline-block;
+
+      &:nth-child(4n+1) {
+        color: white;
+      }
+
+      &:nth-child(4n+2) {
+        color: $deep;
+      }
+
+      &:nth-child(4n+3) {
+        color: $sour;
+      }
+
+      &:nth-child(4n+4) {
+        color: $cool;
+      }
+    }
   }
 }
