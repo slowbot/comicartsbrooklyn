@@ -5,6 +5,11 @@
   padding-bottom: 0 !important;
   padding-top: 0 !important;
 
+  .section-header {
+    color: lighten($sour, 20%);
+    text-align: left;
+  }
+
   .location-map {
     @include span-columns(12);
 
