@@ -1,6 +1,10 @@
 .section-page.featured {
   background-color: $cool;
 
+  .section-header {
+    color: lighten($cool, 10%);
+  }
+  
   .container {
     @include outer-container;
   }
@@ -35,7 +39,7 @@
       }
 
       &-month {
-        @include responsive-text-size('beta');
+        @include responsive-text-size('gamma');
         font-family: $heading-font-family;
         font-weight: 700;
       }
@@ -48,7 +52,7 @@
       }
 
       &-time {
-        @include responsive-text-size('beta');
+        @include responsive-text-size('gamma');
         font-family: $heading-font-family;
         font-weight: 700;
       }
@@ -63,7 +67,7 @@
     }  
 
     h1 {
-      @include responsive-text-size('beta');
+      @include responsive-text-size('gamma');
       font-family: $alt-heading-font-family;
       font-weight: normal;
       padding-right: 2rem;

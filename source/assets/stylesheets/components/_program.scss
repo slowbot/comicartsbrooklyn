@@ -5,6 +5,10 @@
     background-color: $vibrant;
   }
 
+  .section-header {
+    color: lighten($deep, 10%);
+  }
+
   .inner {
     @include span-columns(12);
 
@@ -39,7 +43,8 @@
 
     .place {
       &-title {
-        font-family: $base-font-family;
+        @include responsive-text-size('gamma');
+        font-family: $alt-heading-font-family;
         font-weight: normal;
       }
 
@@ -47,6 +52,12 @@
         @include responsive-text-size('beta');
         font-family: $heading-font-family;
         font-weight: 700;
+      }
+
+      &-sub {
+        @include responsive-text-size('alpha');
+        font-family: $heading-font-family;
+        text-transform: uppercase;
       }
     }
   }  

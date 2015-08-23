@@ -1,6 +1,10 @@
 .section-page.marquee {
   background-color: $vibrant;
 
+  .section-header {
+    color: lighten($vibrant, 10%);
+  }
+
   .container {
     @include outer-container;
     text-align: center;

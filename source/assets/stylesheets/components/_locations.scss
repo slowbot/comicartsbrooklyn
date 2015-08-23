@@ -29,4 +29,17 @@
     color: $deep;
     padding: 2rem;
   }
+
+  .location-list {
+    li {
+      margin-bottom: 1.5rem;
+    }
+
+    h4 {
+      @include responsive-text-size('beta');
+      font-family: $alt-heading-font-family;
+      font-weight: normal;
+      margin-bottom: .25rem;
+    }
+  }
 }
