@@ -42,7 +42,7 @@
     }
 
     h4 {
-      @include responsive-text-size('beta');
+      @include text-size('gamma', 'small');
       font-family: $alt-heading-font-family;
       font-weight: normal;
       margin-bottom: .25rem;

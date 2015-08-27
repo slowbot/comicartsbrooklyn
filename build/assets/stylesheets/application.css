@@ -627,113 +627,192 @@ picture {
 .no-wrap {
   white-space: nowrap; }
 
-/* line 175, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/base/_type-grid.scss */
+/* line 191, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/base/_type-grid.scss */
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: 1rem; }
 
-/* line 180, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/base/_type-grid.scss */
+/* line 196, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/base/_type-grid.scss */
 h1,
 .alpha {
-  font-size: 2.125rem;
-  line-height: 1.25; }
+  font-size: 3.5rem;
+  line-height: 1; }
+
+/* line 201, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/base/_type-grid.scss */
+.r-alpha {
+  font-size: 2.5rem;
+  line-height: 1; }
   @media screen and (min-width: 64em) {
-    /* line 180, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/base/_type-grid.scss */
-    h1,
-    .alpha {
+    /* line 201, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/base/_type-grid.scss */
+    .r-alpha {
       font-size: 3.5rem;
       line-height: 1; } }
   @media screen and (min-width: 90em) {
-    /* line 180, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/base/_type-grid.scss */
-    h1,
-    .alpha {
+    /* line 201, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/base/_type-grid.scss */
+    .r-alpha {
       font-size: 4.5rem;
       line-height: 1; } }
 
-/* line 185, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/base/_type-grid.scss */
+/* line 205, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/base/_type-grid.scss */
 h2,
 .beta {
-  font-size: 1.75rem;
-  line-height: 1.25; }
-  @media screen and (min-width: 90em) {
-    /* line 185, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/base/_type-grid.scss */
-    h2,
-    .beta {
-      font-size: 1.75rem;
-      line-height: 1.25; } }
+  font-size: 2.5rem;
+  line-height: 1; }
 
-/* line 190, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/base/_type-grid.scss */
+/* line 210, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/base/_type-grid.scss */
+.r-beta {
+  font-size: 2rem;
+  line-height: 1; }
+  @media screen and (min-width: 64em) {
+    /* line 210, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/base/_type-grid.scss */
+    .r-beta {
+      font-size: 2.5rem;
+      line-height: 1; } }
+  @media screen and (min-width: 90em) {
+    /* line 210, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/base/_type-grid.scss */
+    .r-beta {
+      font-size: 2.625rem;
+      line-height: 1; } }
+
+/* line 214, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/base/_type-grid.scss */
 h3,
 .gamma {
-  font-size: 1.5rem;
+  font-size: 1.75rem;
   line-height: 1.25; }
+
+/* line 219, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/base/_type-grid.scss */
+.r-gamma {
+  font-size: 1.625rem;
+  line-height: 1.25; }
+  @media screen and (min-width: 64em) {
+    /* line 219, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/base/_type-grid.scss */
+    .r-gamma {
+      font-size: 1.75rem;
+      line-height: 1.25; } }
   @media screen and (min-width: 90em) {
-    /* line 190, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/base/_type-grid.scss */
-    h3,
-    .gamma {
-      font-size: 1.5rem;
+    /* line 219, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/base/_type-grid.scss */
+    .r-gamma {
+      font-size: 1.875rem;
       line-height: 1.25; } }
 
-/* line 195, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/base/_type-grid.scss */
+/* line 223, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/base/_type-grid.scss */
 h4,
 .delta {
+  font-size: 1.375rem;
+  line-height: 1.25; }
+
+/* line 228, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/base/_type-grid.scss */
+.r-delta {
   font-size: 1.25rem;
   line-height: 1.25; }
   @media screen and (min-width: 64em) {
-    /* line 195, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/base/_type-grid.scss */
-    h4,
-    .delta {
-      font-size: 1.35rem;
+    /* line 228, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/base/_type-grid.scss */
+    .r-delta {
+      font-size: 1.375rem;
       line-height: 1.25; } }
   @media screen and (min-width: 90em) {
-    /* line 195, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/base/_type-grid.scss */
-    h4,
-    .delta {
+    /* line 228, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/base/_type-grid.scss */
+    .r-delta {
       font-size: 1.5rem;
       line-height: 1.25; } }
 
-/* line 200, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/base/_type-grid.scss */
+/* line 232, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/base/_type-grid.scss */
 h5,
 .epsilon {
   font-size: 1.125rem;
-  line-height: 1.375; }
+  line-height: 1.25; }
 
-/* line 205, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/base/_type-grid.scss */
+/* line 237, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/base/_type-grid.scss */
+.r-epsilon {
+  font-size: 1.125rem;
+  line-height: 1.25; }
+  @media screen and (min-width: 64em) {
+    /* line 237, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/base/_type-grid.scss */
+    .r-epsilon {
+      font-size: 1.125rem;
+      line-height: 1.25; } }
+
+/* line 241, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/base/_type-grid.scss */
 h6,
 .base {
-  font-size: 0.95;
+  font-size: 1rem;
+  line-height: 1.375; }
+
+/* line 246, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/base/_type-grid.scss */
+.r-base {
+  font-size: 0.9375rem;
   line-height: 1.5; }
   @media screen and (min-width: 64em) {
-    /* line 205, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/base/_type-grid.scss */
-    h6,
-    .base {
+    /* line 246, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/base/_type-grid.scss */
+    .r-base {
       font-size: 1rem;
       line-height: 1.375; } }
 
-/* line 210, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/base/_type-grid.scss */
+/* line 250, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/base/_type-grid.scss */
 small,
 .small {
   font-size: 0.875rem;
-  line-height: 1.2857; }
+  line-height: 1.25; }
 
-/* line 215, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/base/_type-grid.scss */
+/* line 255, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/base/_type-grid.scss */
+.r-small {
+  font-size: 0.8125rem;
+  line-height: 1.25; }
+  @media screen and (min-width: 64em) {
+    /* line 255, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/base/_type-grid.scss */
+    .r-small {
+      font-size: 0.875rem;
+      line-height: 1.25; } }
+
+/* line 259, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/base/_type-grid.scss */
 .tiny {
   font-size: 0.8125rem;
   line-height: 1.25; }
 
-/* line 219, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/base/_type-grid.scss */
-.micro {
+/* line 263, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/base/_type-grid.scss */
+.r-tiny {
   font-size: 0.75rem;
   line-height: 1.25; }
+  @media screen and (min-width: 64em) {
+    /* line 263, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/base/_type-grid.scss */
+    .r-tiny {
+      font-size: 0.8125rem;
+      line-height: 1.25; } }
 
-/* line 223, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/base/_type-grid.scss */
+/* line 267, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/base/_type-grid.scss */
+.micro {
+  font-size: 0.8125rem;
+  line-height: 1.25; }
+
+/* line 271, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/base/_type-grid.scss */
+.r-micro {
+  font-size: 0.6875rem;
+  line-height: 1.25; }
+  @media screen and (min-width: 64em) {
+    /* line 271, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/base/_type-grid.scss */
+    .r-micro {
+      font-size: 0.75rem;
+      line-height: 1.25; } }
+
+/* line 275, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/base/_type-grid.scss */
 .quark {
   font-size: 0.6875rem;
   line-height: 1.25; }
 
-/* line 227, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/base/_type-grid.scss */
+/* line 279, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/base/_type-grid.scss */
+.r-micro {
+  font-size: 0.6875rem;
+  line-height: 1.25; }
+  @media screen and (min-width: 64em) {
+    /* line 279, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/base/_type-grid.scss */
+    .r-micro {
+      font-size: 0.6875rem;
+      line-height: 1.25; } }
+
+/* line 283, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/base/_type-grid.scss */
 p {
   font-weight: 300;
+  line-height: 1.25;
   margin-top: 0; }
 
 /* line 1, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/base/_parallax.scss */
@@ -818,277 +897,44 @@ body {
   color: #fff; }
 
 /* line 9, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/_global.scss */
-.section-header {
-  text-align: center;
-  text-transform: uppercase; }
-
-/* line 14, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/_global.scss */
-section.cover {
-  padding: 125% 0 0 0; }
-  @media screen and (min-width: 30em) {
-    /* line 14, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/_global.scss */
-    section.cover {
-      padding: 65% 0 0 0; } }
-  @media screen and (min-width: 64em) {
-    /* line 14, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/_global.scss */
-    section.cover {
-      padding: 0;
-      height: 600px; } }
-  @media screen and (min-width: 90em) {
-    /* line 14, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/_global.scss */
-    section.cover {
-      background-size: 1200px;
-      background-repeat: no-repeat; } }
-  @media screen and (min-width: 120em) {
-    /* line 14, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/_global.scss */
-    section.cover {
-      height: 80vh; } }
-
-/* line 42, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/_global.scss */
-section.marquee {
-  background-color: #e95ba1; }
-  /* line 45, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/_global.scss */
-  section.marquee .container {
-    max-width: 68em;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center; }
-    /* line 20, /Users/bucky/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/bourbon-4.2.3/app/assets/stylesheets/addons/_clearfix.scss */
-    section.marquee .container::after {
-      clear: both;
-      content: "";
-      display: table; }
-  /* line 50, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/_global.scss */
-  section.marquee .inner {
-    float: left;
-    display: block;
-    margin-right: 2.35765%;
-    width: 100%;
-    padding: 1em; }
-    /* line 89, /Users/bucky/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/neat-1.7.2/app/assets/stylesheets/grid/_span-columns.scss */
-    section.marquee .inner:last-child {
-      margin-right: 0; }
-  /* line 55, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/_global.scss */
-  section.marquee h1 {
-    font-size: 1.5rem;
-    line-height: 1.25;
-    margin-top: 2rem; }
-    @media screen and (min-width: 90em) {
-      /* line 55, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/_global.scss */
-      section.marquee h1 {
-        font-size: 1.5rem;
-        line-height: 1.25; } }
-  /* line 60, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/_global.scss */
-  section.marquee .big-names {
-    font-size: 2.125rem;
-    line-height: 1.25;
-    font-family: "refrigerator-deluxe", sans-serif;
-    text-transform: uppercase;
-    font-weight: 700; }
-    @media screen and (min-width: 64em) {
-      /* line 60, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/_global.scss */
-      section.marquee .big-names {
-        font-size: 3.5rem;
-        line-height: 1; } }
-    @media screen and (min-width: 90em) {
-      /* line 60, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/_global.scss */
-      section.marquee .big-names {
-        font-size: 4.5rem;
-        line-height: 1; } }
-
-/* line 68, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/_global.scss */
-section.featured {
-  background-color: #3ac3f2; }
-  /* line 71, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/_global.scss */
-  section.featured .container {
+.section-page {
+  padding: 1rem 0 3rem; }
+  /* line 12, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/_global.scss */
+  .section-page .container {
     max-width: 68em;
     margin-left: auto;
     margin-right: auto; }
     /* line 20, /Users/bucky/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/bourbon-4.2.3/app/assets/stylesheets/addons/_clearfix.scss */
-    section.featured .container::after {
+    .section-page .container::after {
       clear: both;
       content: "";
       display: table; }
-  /* line 75, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/_global.scss */
-  section.featured .inner {
+  /* line 16, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/_global.scss */
+  .section-page .inner {
     float: left;
     display: block;
     margin-right: 2.35765%;
     width: 100%;
     padding: 1em; }
     /* line 89, /Users/bucky/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/neat-1.7.2/app/assets/stylesheets/grid/_span-columns.scss */
-    section.featured .inner:last-child {
+    .section-page .inner:last-child {
       margin-right: 0; }
 
-/* line 81, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/_global.scss */
-.featured-article {
-  float: left;
-  display: block;
-  margin-right: 2.35765%;
-  width: 100%; }
-  /* line 89, /Users/bucky/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/neat-1.7.2/app/assets/stylesheets/grid/_span-columns.scss */
-  .featured-article:last-child {
-    margin-right: 0; }
-  @media screen and (min-width: 64em) {
-    /* line 81, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/_global.scss */
-    .featured-article {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 48.82117%; }
-      /* line 89, /Users/bucky/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/neat-1.7.2/app/assets/stylesheets/grid/_span-columns.scss */
-      .featured-article:last-child {
-        margin-right: 0; } }
-  /* line 88, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/_global.scss */
-  .featured-article-meta {
-    float: left;
-    display: block;
-    margin-right: 2.35765%;
-    width: 100%; }
-    /* line 89, /Users/bucky/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/neat-1.7.2/app/assets/stylesheets/grid/_span-columns.scss */
-    .featured-article-meta:last-child {
-      margin-right: 0; }
-    @media screen and (min-width: 30em) {
-      /* line 88, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/_global.scss */
-      .featured-article-meta {
-        float: left;
-        display: block;
-        margin-right: 2.35765%;
-        width: 31.76157%; }
-        /* line 89, /Users/bucky/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/neat-1.7.2/app/assets/stylesheets/grid/_span-columns.scss */
-        .featured-article-meta:last-child {
-          margin-right: 0; } }
-    /* line 95, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/_global.scss */
-    .featured-article-meta .date {
-      text-transform: uppercase; }
-      /* line 98, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/_global.scss */
-      .featured-article-meta .date-day {
-        font-size: 2.125rem;
-        line-height: 1.25;
-        font-family: "refrigerator-deluxe", sans-serif;
-        font-weight: 800; }
-        @media screen and (min-width: 64em) {
-          /* line 98, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/_global.scss */
-          .featured-article-meta .date-day {
-            font-size: 3.5rem;
-            line-height: 1; } }
-        @media screen and (min-width: 90em) {
-          /* line 98, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/_global.scss */
-          .featured-article-meta .date-day {
-            font-size: 4.5rem;
-            line-height: 1; } }
-      /* line 104, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/_global.scss */
-      .featured-article-meta .date-month {
-        font-size: 1.75rem;
-        line-height: 1.25;
-        font-family: "refrigerator-deluxe", sans-serif;
-        font-weight: 700; }
-        @media screen and (min-width: 90em) {
-          /* line 104, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/_global.scss */
-          .featured-article-meta .date-month {
-            font-size: 1.75rem;
-            line-height: 1.25; } }
-    /* line 112, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/_global.scss */
-    .featured-article-meta .place-title {
-      font-family: "almaq-refined", sans-serif;
-      font-weight: normal; }
-    /* line 117, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/_global.scss */
-    .featured-article-meta .place-time {
-      font-size: 1.75rem;
-      line-height: 1.25;
-      font-family: "refrigerator-deluxe", sans-serif;
-      font-weight: 700; }
-      @media screen and (min-width: 90em) {
-        /* line 117, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/_global.scss */
-        .featured-article-meta .place-time {
-          font-size: 1.75rem;
-          line-height: 1.25; } }
-  /* line 125, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/_global.scss */
-  .featured-article-content {
-    float: left;
-    display: block;
-    margin-right: 2.35765%;
-    width: 100%; }
-    /* line 89, /Users/bucky/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/neat-1.7.2/app/assets/stylesheets/grid/_span-columns.scss */
-    .featured-article-content:last-child {
-      margin-right: 0; }
-    @media screen and (min-width: 30em) {
-      /* line 125, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/_global.scss */
-      .featured-article-content {
-        float: left;
-        display: block;
-        margin-right: 2.35765%;
-        width: 65.88078%; }
-        /* line 89, /Users/bucky/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/neat-1.7.2/app/assets/stylesheets/grid/_span-columns.scss */
-        .featured-article-content:last-child {
-          margin-right: 0; } }
-    /* line 132, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/_global.scss */
-    .featured-article-content h1 {
-      font-size: 1.75rem;
-      line-height: 1.25;
-      font-family: "almaq-refined", sans-serif;
-      font-weight: normal;
-      padding-right: 2rem; }
-      @media screen and (min-width: 90em) {
-        /* line 132, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/_global.scss */
-        .featured-article-content h1 {
-          font-size: 1.75rem;
-          line-height: 1.25; } }
+/* line 22, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/_global.scss */
+.section-header {
+  text-shadow: -2px -2px 0 rgba(0, 0, 0, 0.2);
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 1.5rem; }
+  @media screen and (min-width: 30em) {
+    /* line 22, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/_global.scss */
+    .section-header {
+      font-size: 2.645rem; } }
 
-/* line 141, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/_global.scss */
-section.calendar {
-  background-color: #354872; }
-  /* line 144, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/_global.scss */
-  section.calendar .container {
-    max-width: 68em;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center; }
-    /* line 20, /Users/bucky/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/bourbon-4.2.3/app/assets/stylesheets/addons/_clearfix.scss */
-    section.calendar .container::after {
-      clear: both;
-      content: "";
-      display: table; }
-  /* line 149, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/_global.scss */
-  section.calendar .inner {
-    float: left;
-    display: block;
-    margin-right: 2.35765%;
-    width: 100%;
-    padding: 1em; }
-    /* line 89, /Users/bucky/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/neat-1.7.2/app/assets/stylesheets/grid/_span-columns.scss */
-    section.calendar .inner:last-child {
-      margin-right: 0; }
-
-/* line 155, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/_global.scss */
-section.map {
-  background-color: #e0e32e; }
-  /* line 158, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/_global.scss */
-  section.map .container {
-    max-width: 68em;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center; }
-    /* line 20, /Users/bucky/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/bourbon-4.2.3/app/assets/stylesheets/addons/_clearfix.scss */
-    section.map .container::after {
-      clear: both;
-      content: "";
-      display: table; }
-  /* line 163, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/_global.scss */
-  section.map .inner {
-    float: left;
-    display: block;
-    margin-right: 2.35765%;
-    width: 100%;
-    padding: 1em; }
-    /* line 89, /Users/bucky/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/neat-1.7.2/app/assets/stylesheets/grid/_span-columns.scss */
-    section.map .inner:last-child {
-      margin-right: 0; }
-
-/* line 169, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/_global.scss */
+/* line 33, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/_global.scss */
 footer.footer {
   background-color: #354872; }
-  /* line 172, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/_global.scss */
+  /* line 36, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/_global.scss */
   footer.footer .container {
     max-width: 68em;
     margin-left: auto;
@@ -1099,7 +945,7 @@ footer.footer {
       clear: both;
       content: "";
       display: table; }
-  /* line 177, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/_global.scss */
+  /* line 41, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/_global.scss */
   footer.footer .inner {
     float: left;
     display: block;
@@ -1109,3 +955,538 @@ footer.footer {
     /* line 89, /Users/bucky/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/neat-1.7.2/app/assets/stylesheets/grid/_span-columns.scss */
     footer.footer .inner:last-child {
       margin-right: 0; }
+
+/* line 47, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/_global.scss */
+.align-right {
+  float: right !important; }
+
+/* line 1, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/components/_cover.scss */
+section.cover {
+  background-image: url(/assets/images/bg-cover.jpg);
+  background-color: #fff;
+  background-size: cover;
+  background-position: 50% top;
+  margin: 0 auto;
+  padding: 125% 0 0 0; }
+  @media screen and (min-width: 30em) {
+    /* line 1, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/components/_cover.scss */
+    section.cover {
+      padding: 65% 0 0 0; } }
+  @media screen and (min-width: 64em) {
+    /* line 1, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/components/_cover.scss */
+    section.cover {
+      padding: 0;
+      height: 600px;
+      background-size: 1200px;
+      background-repeat: no-repeat; } }
+  @media screen and (min-width: 120em) {
+    /* line 1, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/components/_cover.scss */
+    section.cover {
+      height: 80vh; } }
+
+/* line 30, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/components/_cover.scss */
+.spacer {
+  background-image: url(/assets/images/bg-cover.jpg);
+  background-color: #fff;
+  background-size: cover;
+  background-position: 50% -50%;
+  margin: 0 auto;
+  padding: 15% 0 0 0; }
+  @media screen and (min-width: 90em) {
+    /* line 30, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/components/_cover.scss */
+    .spacer {
+      background-size: 1200px; } }
+  /* line 42, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/components/_cover.scss */
+  .spacer-2 {
+    background-position: 50% -20%; }
+  /* line 46, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/components/_cover.scss */
+  .spacer-3 {
+    background-position: 50% bottom; }
+
+/* line 1, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/components/_marquee.scss */
+.section-page.marquee {
+  background-color: #e95ba1; }
+  /* line 4, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/components/_marquee.scss */
+  .section-page.marquee .section-header {
+    color: #ef88bb; }
+  /* line 8, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/components/_marquee.scss */
+  .section-page.marquee .container {
+    max-width: 68em;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center; }
+    /* line 20, /Users/bucky/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/bourbon-4.2.3/app/assets/stylesheets/addons/_clearfix.scss */
+    .section-page.marquee .container::after {
+      clear: both;
+      content: "";
+      display: table; }
+    @media screen and (min-width: 90em) {
+      /* line 8, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/components/_marquee.scss */
+      .section-page.marquee .container {
+        max-width: 88rem !important; } }
+  /* line 17, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/components/_marquee.scss */
+  .section-page.marquee .inner {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%;
+    padding: 1em; }
+    /* line 89, /Users/bucky/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/neat-1.7.2/app/assets/stylesheets/grid/_span-columns.scss */
+    .section-page.marquee .inner:last-child {
+      margin-right: 0; }
+  /* line 22, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/components/_marquee.scss */
+  .section-page.marquee h1 {
+    font-size: 1.625rem;
+    line-height: 1.25;
+    margin-top: 2rem; }
+    @media screen and (min-width: 64em) {
+      /* line 22, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/components/_marquee.scss */
+      .section-page.marquee h1 {
+        font-size: 1.75rem;
+        line-height: 1.25; } }
+    @media screen and (min-width: 90em) {
+      /* line 22, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/components/_marquee.scss */
+      .section-page.marquee h1 {
+        font-size: 1.875rem;
+        line-height: 1.25; } }
+  /* line 27, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/components/_marquee.scss */
+  .section-page.marquee .big-names {
+    font-size: 2.5rem;
+    line-height: 1;
+    font-family: "refrigerator-deluxe", sans-serif;
+    text-transform: uppercase;
+    font-weight: 700; }
+    @media screen and (min-width: 64em) {
+      /* line 27, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/components/_marquee.scss */
+      .section-page.marquee .big-names {
+        font-size: 3.5rem;
+        line-height: 1; } }
+    @media screen and (min-width: 90em) {
+      /* line 27, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/components/_marquee.scss */
+      .section-page.marquee .big-names {
+        font-size: 4.5rem;
+        line-height: 1; } }
+    /* line 33, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/components/_marquee.scss */
+    .section-page.marquee .big-names span {
+      display: inline-block; }
+      /* line 36, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/components/_marquee.scss */
+      .section-page.marquee .big-names span:nth-child(4n+1) {
+        color: white; }
+      /* line 40, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/components/_marquee.scss */
+      .section-page.marquee .big-names span:nth-child(4n+2) {
+        color: #354872; }
+      /* line 44, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/components/_marquee.scss */
+      .section-page.marquee .big-names span:nth-child(4n+3) {
+        color: #e0e32e; }
+      /* line 48, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/components/_marquee.scss */
+      .section-page.marquee .big-names span:nth-child(4n+4) {
+        color: #3ac3f2; }
+
+/* line 1, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/components/_featured.scss */
+.section-page.featured {
+  background-color: #3ac3f2; }
+  /* line 4, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/components/_featured.scss */
+  .section-page.featured .section-header {
+    color: #6ad2f5; }
+  /* line 8, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/components/_featured.scss */
+  .section-page.featured .container {
+    max-width: 68em;
+    margin-left: auto;
+    margin-right: auto; }
+    /* line 20, /Users/bucky/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/bourbon-4.2.3/app/assets/stylesheets/addons/_clearfix.scss */
+    .section-page.featured .container::after {
+      clear: both;
+      content: "";
+      display: table; }
+  /* line 12, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/components/_featured.scss */
+  .section-page.featured .inner {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%;
+    padding: 1em; }
+    /* line 89, /Users/bucky/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/neat-1.7.2/app/assets/stylesheets/grid/_span-columns.scss */
+    .section-page.featured .inner:last-child {
+      margin-right: 0; }
+
+/* line 18, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/components/_featured.scss */
+.featured-article {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  background-color: #22bcf0;
+  padding: 1rem;
+  margin-bottom: 1rem; }
+  /* line 89, /Users/bucky/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/neat-1.7.2/app/assets/stylesheets/grid/_span-columns.scss */
+  .featured-article:last-child {
+    margin-right: 0; }
+  @media screen and (min-width: 30em) {
+    /* line 18, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/components/_featured.scss */
+    .featured-article {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 48.82117%;
+      margin-bottom: 1.5rem; }
+      /* line 89, /Users/bucky/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/neat-1.7.2/app/assets/stylesheets/grid/_span-columns.scss */
+      .featured-article:last-child {
+        margin-right: 0; }
+      /* line 28, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/components/_featured.scss */
+      .featured-article:nth-child(2n+0) {
+        margin-right: 0; }
+      /* line 32, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/components/_featured.scss */
+      .featured-article:nth-child(2n+1) {
+        clear: left; } }
+  @media screen and (min-width: 64em) {
+    /* line 18, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/components/_featured.scss */
+    .featured-article {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 31.76157%; }
+      /* line 89, /Users/bucky/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/neat-1.7.2/app/assets/stylesheets/grid/_span-columns.scss */
+      .featured-article:last-child {
+        margin-right: 0; }
+      /* line 40, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/components/_featured.scss */
+      .featured-article:nth-child(2n+0) {
+        margin-right: 2.35765%; }
+      /* line 44, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/components/_featured.scss */
+      .featured-article:nth-child(2n+1) {
+        clear: none; }
+      /* line 48, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/components/_featured.scss */
+      .featured-article:nth-child(3n+0) {
+        margin-right: 0; }
+      /* line 52, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/components/_featured.scss */
+      .featured-article:nth-child(3n+1) {
+        clear: left; } }
+  /* line 57, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/components/_featured.scss */
+  .featured-article-meta {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%; }
+    /* line 89, /Users/bucky/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/neat-1.7.2/app/assets/stylesheets/grid/_span-columns.scss */
+    .featured-article-meta:last-child {
+      margin-right: 0; }
+    /* line 64, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/components/_featured.scss */
+    .featured-article-meta .date {
+      text-transform: uppercase; }
+      /* line 67, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/components/_featured.scss */
+      .featured-article-meta .date-day {
+        font-size: 1.75rem;
+        line-height: 1.25;
+        font-family: "refrigerator-deluxe", sans-serif;
+        font-weight: 700;
+        display: inline-block; }
+      /* line 74, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/components/_featured.scss */
+      .featured-article-meta .date-month {
+        font-size: 1.75rem;
+        line-height: 1.25;
+        font-family: "refrigerator-deluxe", sans-serif;
+        font-weight: 700;
+        display: inline-block;
+        color: #354872; }
+    /* line 84, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/components/_featured.scss */
+    .featured-article-meta .place-title {
+      font-size: 1.5rem;
+      line-height: 1.25;
+      font-family: "almaq-refined", sans-serif;
+      font-weight: normal; }
+    /* line 90, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/components/_featured.scss */
+    .featured-article-meta .place-time {
+      font-size: 1.625rem;
+      line-height: 1.25;
+      font-family: "refrigerator-deluxe", sans-serif;
+      font-weight: 700;
+      color: #354872; }
+      @media screen and (min-width: 64em) {
+        /* line 90, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/components/_featured.scss */
+        .featured-article-meta .place-time {
+          font-size: 1.75rem;
+          line-height: 1.25; } }
+      @media screen and (min-width: 90em) {
+        /* line 90, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/components/_featured.scss */
+        .featured-article-meta .place-time {
+          font-size: 1.875rem;
+          line-height: 1.25; } }
+  /* line 99, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/components/_featured.scss */
+  .featured-article-content {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%; }
+    /* line 89, /Users/bucky/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/neat-1.7.2/app/assets/stylesheets/grid/_span-columns.scss */
+    .featured-article-content:last-child {
+      margin-right: 0; }
+    /* line 106, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/components/_featured.scss */
+    .featured-article-content h1 {
+      font-size: 1.625rem;
+      line-height: 1.25;
+      font-family: "almaq-refined", sans-serif;
+      font-weight: normal;
+      margin-bottom: .5rem; }
+      @media screen and (min-width: 30em) {
+        /* line 106, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/components/_featured.scss */
+        .featured-article-content h1 {
+          font-size: 1.5rem;
+          line-height: 1.25; } }
+    /* line 117, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/components/_featured.scss */
+    .featured-article-content p {
+      color: rgba(255, 255, 255, 0.8); }
+
+/* line 1, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/components/_program.scss */
+.section-page.program {
+  background-color: #354872; }
+  /* line 4, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/components/_program.scss */
+  .section-page.program.bg-vibrant {
+    background-color: #e95ba1; }
+  /* line 8, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/components/_program.scss */
+  .section-page.program .section-header {
+    color: #455e95; }
+  /* line 12, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/components/_program.scss */
+  .section-page.program .inner {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%; }
+    /* line 89, /Users/bucky/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/neat-1.7.2/app/assets/stylesheets/grid/_span-columns.scss */
+    .section-page.program .inner:last-child {
+      margin-right: 0; }
+    @media screen and (min-width: 64em) {
+      /* line 12, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/components/_program.scss */
+      .section-page.program .inner {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 82.94039%;
+        margin-left: 8.5298%; }
+        /* line 89, /Users/bucky/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/neat-1.7.2/app/assets/stylesheets/grid/_span-columns.scss */
+        .section-page.program .inner:last-child {
+          margin-right: 0; } }
+  /* line 21, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/components/_program.scss */
+  .section-page.program .program-header {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%; }
+    /* line 89, /Users/bucky/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/neat-1.7.2/app/assets/stylesheets/grid/_span-columns.scss */
+    .section-page.program .program-header:last-child {
+      margin-right: 0; }
+    @media screen and (min-width: 30em) {
+      /* line 21, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/components/_program.scss */
+      .section-page.program .program-header {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 48.82117%; }
+        /* line 89, /Users/bucky/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/neat-1.7.2/app/assets/stylesheets/grid/_span-columns.scss */
+        .section-page.program .program-header:last-child {
+          margin-right: 0; } }
+    /* line 28, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/components/_program.scss */
+    .section-page.program .program-header .date {
+      text-transform: uppercase; }
+      /* line 31, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/components/_program.scss */
+      .section-page.program .program-header .date-day {
+        font-size: 2.5rem;
+        line-height: 1;
+        font-family: "refrigerator-deluxe", sans-serif;
+        font-weight: 800; }
+        @media screen and (min-width: 64em) {
+          /* line 31, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/components/_program.scss */
+          .section-page.program .program-header .date-day {
+            font-size: 3.5rem;
+            line-height: 1; } }
+        @media screen and (min-width: 90em) {
+          /* line 31, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/components/_program.scss */
+          .section-page.program .program-header .date-day {
+            font-size: 4.5rem;
+            line-height: 1; } }
+      /* line 37, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/components/_program.scss */
+      .section-page.program .program-header .date-month {
+        font-size: 2rem;
+        line-height: 1;
+        font-family: "refrigerator-deluxe", sans-serif;
+        font-weight: 700; }
+        @media screen and (min-width: 64em) {
+          /* line 37, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/components/_program.scss */
+          .section-page.program .program-header .date-month {
+            font-size: 2.5rem;
+            line-height: 1; } }
+        @media screen and (min-width: 90em) {
+          /* line 37, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/components/_program.scss */
+          .section-page.program .program-header .date-month {
+            font-size: 2.625rem;
+            line-height: 1; } }
+    /* line 45, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/components/_program.scss */
+    .section-page.program .program-header .place-title {
+      font-size: 1.625rem;
+      line-height: 1.25;
+      font-family: "almaq-refined", sans-serif;
+      font-weight: normal; }
+      @media screen and (min-width: 64em) {
+        /* line 45, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/components/_program.scss */
+        .section-page.program .program-header .place-title {
+          font-size: 1.75rem;
+          line-height: 1.25; } }
+      @media screen and (min-width: 90em) {
+        /* line 45, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/components/_program.scss */
+        .section-page.program .program-header .place-title {
+          font-size: 1.875rem;
+          line-height: 1.25; } }
+    /* line 51, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/components/_program.scss */
+    .section-page.program .program-header .place-time {
+      font-size: 2rem;
+      line-height: 1;
+      font-family: "refrigerator-deluxe", sans-serif;
+      font-weight: 700; }
+      @media screen and (min-width: 64em) {
+        /* line 51, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/components/_program.scss */
+        .section-page.program .program-header .place-time {
+          font-size: 2.5rem;
+          line-height: 1; } }
+      @media screen and (min-width: 90em) {
+        /* line 51, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/components/_program.scss */
+        .section-page.program .program-header .place-time {
+          font-size: 2.625rem;
+          line-height: 1; } }
+    /* line 57, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/components/_program.scss */
+    .section-page.program .program-header .place-sub {
+      font-size: 2.5rem;
+      line-height: 1;
+      font-family: "refrigerator-deluxe", sans-serif;
+      text-transform: uppercase; }
+      @media screen and (min-width: 64em) {
+        /* line 57, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/components/_program.scss */
+        .section-page.program .program-header .place-sub {
+          font-size: 3.5rem;
+          line-height: 1; } }
+      @media screen and (min-width: 90em) {
+        /* line 57, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/components/_program.scss */
+        .section-page.program .program-header .place-sub {
+          font-size: 4.5rem;
+          line-height: 1; } }
+  /* line 65, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/components/_program.scss */
+  .section-page.program .program-article {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%;
+    margin-top: 1.5rem; }
+    /* line 89, /Users/bucky/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/neat-1.7.2/app/assets/stylesheets/grid/_span-columns.scss */
+    .section-page.program .program-article:last-child {
+      margin-right: 0; }
+    @media screen and (min-width: 30em) {
+      /* line 65, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/components/_program.scss */
+      .section-page.program .program-article {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 48.82117%;
+        margin-top: 0; }
+        /* line 89, /Users/bucky/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/neat-1.7.2/app/assets/stylesheets/grid/_span-columns.scss */
+        .section-page.program .program-article:last-child {
+          margin-right: 0; } }
+    /* line 74, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/components/_program.scss */
+    .section-page.program .program-article h1 {
+      font-size: 2rem;
+      line-height: 1;
+      font-family: "almaq-refined", sans-serif;
+      font-weight: normal;
+      padding-right: 2rem; }
+      @media screen and (min-width: 64em) {
+        /* line 74, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/components/_program.scss */
+        .section-page.program .program-article h1 {
+          font-size: 2.5rem;
+          line-height: 1; } }
+      @media screen and (min-width: 90em) {
+        /* line 74, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/components/_program.scss */
+        .section-page.program .program-article h1 {
+          font-size: 2.625rem;
+          line-height: 1; } }
+    /* line 81, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/components/_program.scss */
+    .section-page.program .program-article-time {
+      font-size: 2rem;
+      line-height: 1;
+      text-transform: uppercase; }
+      @media screen and (min-width: 64em) {
+        /* line 81, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/components/_program.scss */
+        .section-page.program .program-article-time {
+          font-size: 2.5rem;
+          line-height: 1; } }
+      @media screen and (min-width: 90em) {
+        /* line 81, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/components/_program.scss */
+        .section-page.program .program-article-time {
+          font-size: 2.625rem;
+          line-height: 1; } }
+
+/* line 1, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/components/_locations.scss */
+.section-page.locations {
+  background-color: #e0e32e;
+  position: relative;
+  padding-bottom: 0 !important;
+  padding-top: 0 !important; }
+  /* line 20, /Users/bucky/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/bourbon-4.2.3/app/assets/stylesheets/addons/_clearfix.scss */
+  .section-page.locations::after {
+    clear: both;
+    content: "";
+    display: table; }
+  /* line 8, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/components/_locations.scss */
+  .section-page.locations .section-header {
+    color: #edef88;
+    text-align: left;
+    margin-top: 1rem; }
+  /* line 14, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/components/_locations.scss */
+  .section-page.locations .location-map {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%;
+    background-color: #3ac3f2; }
+    /* line 89, /Users/bucky/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/neat-1.7.2/app/assets/stylesheets/grid/_span-columns.scss */
+    .section-page.locations .location-map:last-child {
+      margin-right: 0; }
+    @media screen and (min-width: 30em) {
+      /* line 14, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/components/_locations.scss */
+      .section-page.locations .location-map {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 48.82117%; }
+        /* line 89, /Users/bucky/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/neat-1.7.2/app/assets/stylesheets/grid/_span-columns.scss */
+        .section-page.locations .location-map:last-child {
+          margin-right: 0; } }
+    /* line 23, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/components/_locations.scss */
+    .section-page.locations .location-map .map {
+      padding-bottom: 100%; }
+  /* line 28, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/components/_locations.scss */
+  .section-page.locations .location-directory {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%;
+    color: #354872;
+    padding: 2rem; }
+    /* line 89, /Users/bucky/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/neat-1.7.2/app/assets/stylesheets/grid/_span-columns.scss */
+    .section-page.locations .location-directory:last-child {
+      margin-right: 0; }
+    @media screen and (min-width: 30em) {
+      /* line 28, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/components/_locations.scss */
+      .section-page.locations .location-directory {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 48.82117%; }
+        /* line 89, /Users/bucky/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/neat-1.7.2/app/assets/stylesheets/grid/_span-columns.scss */
+        .section-page.locations .location-directory:last-child {
+          margin-right: 0; } }
+  /* line 40, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/components/_locations.scss */
+  .section-page.locations .location-list li {
+    margin-bottom: 1.5rem; }
+  /* line 44, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/components/_locations.scss */
+  .section-page.locations .location-list h4 {
+    font-size: 1.625rem;
+    line-height: 1.25;
+    font-family: "almaq-refined", sans-serif;
+    font-weight: normal;
+    margin-bottom: .25rem; }

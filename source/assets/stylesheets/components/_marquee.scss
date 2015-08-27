@@ -8,6 +8,10 @@
   .container {
     @include outer-container;
     text-align: center;
+
+    @include media($large-media) {
+      max-width: 88rem !important;
+    }  
   }
 
   .inner {
