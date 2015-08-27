@@ -18,12 +18,14 @@
 .featured-article {
   @include span-columns(12);
   // background-color: darken($cool, 4%);
-  border: 5px solid rgba(#fff, .15);
-  padding: 1rem;
+  border-bottom: 5px solid rgba(#fff, .15);
+  padding: 1rem 0;
   margin-bottom: 1rem;
 
   @include media($small-media) {
     @include span-columns(6);
+    border: 5px solid rgba(#fff, .15);
+    padding: 1rem;
     margin-bottom: 1.5rem;
     
     &:nth-child(2n+0) {
