@@ -23,9 +23,36 @@
 
   @include media($small-media) {
     @include span-columns(6);
-    @include omega(3n);
     margin-bottom: 1.5rem;
+    
+    &:nth-child(2n+0) {
+      margin-right: 0;
+    }
+
+    &:nth-child(2n+1) {
+      clear: left;
+    }
   }
+
+  @include media($medium-media) {
+    @include span-columns(4);
+    
+    &:nth-child(2n+0) {
+      margin-right: 2.35765%;
+    }
+
+    &:nth-child(2n+1) {
+      clear: none;
+    }
+
+    &:nth-child(3n+0) {
+      margin-right: 0;
+    }
+
+    &:nth-child(3n+1) {
+      clear: left;
+    }
+  }  
 
   &-meta {
     @include span-columns(12);
@@ -83,7 +110,7 @@
       margin-bottom: .5rem;
 
       @include media($small-media) {
-        @include text-size('gamma', 'large');
+        @include text-size('delta', 'large');
       }  
     }
 

@@ -14,7 +14,7 @@
   .location-map {
     @include span-columns(12);
 
-    @include media($medium-media) {
+    @include media($small-media) {
       @include span-columns(6);
     }
 
@@ -28,7 +28,7 @@
   .location-directory {
     @include span-columns(12);
     
-    @include media($medium-media) {
+    @include media($small-media) {
       @include span-columns(6);
     }
       
