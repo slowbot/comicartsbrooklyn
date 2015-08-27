@@ -64,9 +64,11 @@
 
   .program-article {
     @include span-columns(12);
-    
+    margin-top: 1.5rem;
+
     @include media($small-media) {
       @include span-columns(6);
+      margin-top: 0;
     }  
 
     h1 {
@@ -74,6 +76,11 @@
       font-family: $alt-heading-font-family;
       font-weight: normal;
       padding-right: 2rem;
+    }
+
+    &-time { 
+      @include responsive-text-size('beta');
+      text-transform: uppercase;
     }
   }
 }
