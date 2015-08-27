@@ -4,7 +4,7 @@ section.cover {
   background-size: cover;
   background-position: 50% top;
   margin: 0 auto;
-
+  position: relative;
   padding: 125% 0 0 0;
   
   @include media($small-media) {
@@ -45,5 +45,46 @@ section.cover {
 
   &-3 {
     background-position: 50% bottom; 
+  }
+}
+
+.skin {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.scroll-menu {
+  background-color: #fff;
+  display: block;
+  position: absolute;
+  bottom: 10%;
+  width: 150px;
+  height: 200px;
+  left: 0;
+
+  li a {
+    @include text-size('beta', 'medium');
+    font-family: $heading-font-family;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 3.125rem;
+    color: #fff;
+    padding: 0 1.25rem;
+
+    &.bg-vibrant {
+      background-color: $vibrant;
+    }
+    &.bg-cool {
+      background-color: $cool;
+    }
+    &.bg-deep {
+      background-color: $deep;
+    }
+    &.bg-sour {
+      background-color: $sour;
+    }
   }
 }
