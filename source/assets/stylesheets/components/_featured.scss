@@ -11,21 +11,29 @@
 
   .inner {
     @include span-columns(12);
-    padding: 1em;
+    padding: 1rem .75rem;
+
+    @include media($small-media) {
+      padding: 1em;
+    }  
   }  
+}
+
+.equalheight {
+  @include clearfix;
 }
 
 .featured-article {
   @include span-columns(12);
-  // background-color: darken($cool, 4%);
-  border-bottom: 5px solid rgba(#fff, .15);
-  padding: 1rem 0;
-  margin-bottom: 1rem;
+  background-color: rgba(#fff, .95);
+  color: darken($cool, 50%);
+  box-shadow: -3px -3px 0 rgba(0,0,0,.2);
+  padding: 1.5rem;
+  margin-bottom: .75rem;
 
   @include media($small-media) {
     @include span-columns(6);
-    border: 5px solid rgba(#fff, .15);
-    padding: 1rem;
+    padding: 1.5rem;
     margin-bottom: 1.5rem;
     
     &:nth-child(2n+0) {
@@ -58,12 +66,7 @@
   }  
 
   &-meta {
-    @include span-columns(12);
-    margin-bottom: 1rem;  
-
-    @include media($small-media) {
-      // @include span-columns(4);
-    }   
+    margin-bottom: 1rem;
 
     .date {
       text-transform: uppercase;
@@ -80,37 +83,33 @@
         font-family: $heading-font-family;
         font-weight: 700;
         display: inline-block;
-        color: $deep;
+        color: $cool;
       }
     }
 
     .place {
       &-title {
-        @include text-size('delta', 'large');
-        font-family: $alt-heading-font-family;
-        font-weight: normal;
+        @include text-size('delta', 'medium');
+        font-family: $base-font-family;
+        font-weight: 600;
       }
 
       &-time {
         @include responsive-text-size('gamma');
         font-family: $heading-font-family;
         font-weight: 700;
-        color: $deep;
+        color: $cool;
       }
     }
   }
 
   &-content {
-    @include span-columns(12);
-    
-    @include media($small-media) {
-
-    }  
+    padding-bottom: 1rem;
 
     h1 {
       @include text-size('gamma', 'small');
-      font-family: $alt-heading-font-family;
-      font-weight: normal;
+      font-family: $base-font-family;
+      font-weight: 700;
       margin-bottom: .5rem;
 
       @include media($small-media) {
@@ -119,7 +118,7 @@
     }
 
     p {
-      color: rgba(#fff, .8);
+      color: rgba(#000, .6);
     }
   }
 }

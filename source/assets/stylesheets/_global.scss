@@ -47,3 +47,11 @@ footer.footer {
 .align-right {
   float: right !important;
 }
+
+.button.giant-button {
+    @include text-size('delta', 'small');
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 1rem 2rem;
+    margin-top: 1rem;
+  }
