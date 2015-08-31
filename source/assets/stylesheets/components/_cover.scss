@@ -28,19 +28,25 @@ section.cover {
 }
 
 .spacer {
-  background-image: url(/assets/images/bg-cover.jpg);
+  background-image: url(/assets/images/bg-cover-no-title.jpg);
   background-color: #fff;
-  background-size: cover;
-  background-position: 50% -50%;
+  background-size: 100%;
+  background-position: 50% 20%;
   margin: 0 auto;
   padding: 15% 0 0 0;
+  position: relative;
+
+  @include media($medium-media) {
+    background-size: 1200px;
+    background-repeat: no-repeat;
+  }  
   
   @include media($large-media) {
-    background-size: 1200px;
+
   }
 
   &-2 {
-    background-position: 50% -20%; 
+    background-position: 50% 30%; 
   }
 
   &-3 {
