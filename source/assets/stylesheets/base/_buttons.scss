@@ -3,9 +3,10 @@ button,
 .button {
   @include appearance(none);
   -webkit-font-smoothing: antialiased;
-  background-color: $cool;
+  // background-color: $cool;
+  background-color: rgba(#fff, 0);
   border-radius: 0;
-  border: none;
+  border: 3px solid #fff;
   color: #fff;
   cursor: pointer;
   display: inline-block;
@@ -21,8 +22,10 @@ button,
 
   &:hover,
   &:focus {
-    background-color: darken($cool, 15%);
-    color: #fff;
+    // background-color: darken($cool, 15%);
+    background-color: rgba(#fff, 1);
+    // border: 3px solid $cool;
+    color: $cool;
   }
 
   &:disabled {
@@ -31,11 +34,26 @@ button,
   }
 
   &.primary {
-    background-color: $vibrant;
+    background-color: rgba($vibrant, 0);
+    border: 3px solid $vibrant;
+    color: $vibrant;
 
     &:hover,
     &:focus {
-      background-color: darken($vibrant, 15%);
+      background-color: rgba($vibrant, 1);
+      color: #fff;
+    }
+  }
+
+  &.secondary {
+    background-color: rgba($cool, 0);
+    border: 3px solid $cool;
+    color: $cool;
+
+    &:hover,
+    &:focus {
+      background-color: rgba($cool, 1);
+      color: #fff;
     }
   }
 }
