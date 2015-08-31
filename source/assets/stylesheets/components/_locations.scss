@@ -5,6 +5,11 @@
   padding-bottom: 0 !important;
   padding-top: 0 !important;
 
+  @include media($small-media) {
+    @include fill-parent();
+    @include row(table);
+  }
+
   .section-header {
     color: lighten($sour, 20%);
     text-align: left;
@@ -13,23 +18,40 @@
 
   .location-map {
     @include span-columns(12);
-
+    background: url(/assets/images/map-img.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: $vibrant;
+    display: block;
+    
     @include media($small-media) {
       @include span-columns(6);
+      margin-right: 0;
+      width: 50%;
     }
 
-    background-color: $cool;
+    // background-color: $cool;
 
     .map {
+      background: url(/assets/images/map-img.png);
+      background-size: cover;
       padding-bottom: 100%;
+
+     @include media($small-media) {
+      padding-bottom: 0;
+     } 
     }
   }
 
   .location-directory {
     @include span-columns(12);
-    
+    background-color: $sour;
+    display: block;
+
     @include media($small-media) {
       @include span-columns(6);
+      @include reset-display;
+      width: 50%;
     }
       
     color: $deep;
@@ -41,11 +63,29 @@
       margin-bottom: 1.5rem;
     }
 
+    span {
+      float: left;
+      color: $sour;
+      display: block;
+      background-color: $deep;
+      border-radius: 50%;
+      height: 1.5rem;
+      width: 1.5rem;
+      line-height: 1.5rem;
+      text-align: center;
+      margin: .25rem .5rem 0 0;
+    }
+
     h4 {
       @include text-size('gamma', 'small');
       font-family: $alt-heading-font-family;
       font-weight: normal;
       margin-bottom: .25rem;
+      margin-left: 2rem;
+    }
+
+    p {
+      margin-left: 2rem;
     }
   }
 }
