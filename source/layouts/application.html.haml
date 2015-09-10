@@ -1,0 +1,26 @@
+!!!
+%html
+  %head
+    %meta{charset: "utf-8"}
+    %meta{content: "IE=edge,chrome=1", http: {equiv: "X-UA-Compatible"}}
+    %meta{name: "viewport", content: "width=device-width, initial-scale=1"}
+    %title= current_page.data.title || "Comic Arts Brooklyn"
+    = stylesheet_link_tag "application"
+    <script src="//use.typekit.net/uyb1gqc.js"></script>
+    <script>try{Typekit.load({ async: true });}catch(e){}</script> 
+
+  %body{class: page_classes}
+    = yield
+    = javascript_include_tag "https://code.jquery.com/jquery-2.1.1.min.js"
+    %script{:src => "/assets/javascripts/jquery.matchHeight-min.js", :type => "text/javascript"}
+    :javascript
+      $('.equals').matchHeight();
+
+    / = javascript_include_tag "https://code.jquery.com/jquery-2.1.1.min.js", "application"
+
+    / %script{:src => "/assets/javascripts/skrollr.js", :type => "text/javascript"}
+    / :javascript
+    /   skrollr.init({
+    /     smoothScrolling: false,
+    /     mobileDeceleration: 0.004
+    /   });

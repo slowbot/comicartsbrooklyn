@@ -1,0 +1,59 @@
+#{$all-button-inputs},
+button,
+.button {
+  @include appearance(none);
+  -webkit-font-smoothing: antialiased;
+  // background-color: $cool;
+  background-color: rgba(#fff, 0);
+  border-radius: 0;
+  border: 3px solid #fff;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: $base-font-family;
+  font-size: $base-font-size;
+  font-weight: 600;
+  line-height: 1;
+  padding: 0.75em 1em;
+  text-decoration: none;
+  user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+
+  &:hover,
+  &:focus {
+    // background-color: darken($cool, 15%);
+    background-color: rgba(#fff, 1);
+    // border: 3px solid $cool;
+    color: $cool;
+  }
+
+  &:disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+  }
+
+  &.primary {
+    background-color: rgba($vibrant, 0);
+    border: 3px solid $vibrant;
+    color: $vibrant;
+
+    &:hover,
+    &:focus {
+      background-color: rgba($vibrant, 1);
+      color: #fff;
+    }
+  }
+
+  &.secondary {
+    background-color: rgba($cool, 0);
+    border: 3px solid $cool;
+    color: $cool;
+
+    &:hover,
+    &:focus {
+      background-color: rgba($cool, 1);
+      color: #fff;
+    }
+  }
+}

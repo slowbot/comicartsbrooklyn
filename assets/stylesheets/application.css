@@ -200,7 +200,7 @@ hr {
 /* line 222, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/vendor/normalize.css */
 pre {
   overflow: auto; }
-f
+
 /**
  * Address odd `em`-unit font size rendering in all browsers.
  */
@@ -1005,7 +1005,7 @@ footer.footer {
 
 /* line 1, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/components/_cover.scss */
 section.cover {
-  background-image: url(images/bg-cover.jpg);
+  background-image: url(/assets/images/bg-cover.jpg);
   background-color: #fff;
   background-size: 100%;
   background-position: 50% top;
@@ -1030,7 +1030,7 @@ section.cover {
 
 /* line 30, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/components/_cover.scss */
 .spacer {
-  background-image: url(images/bg-cover-no-title.jpg);
+  background-image: url(/assets/images/bg-cover-no-title.jpg);
   background-color: #fff;
   background-size: 100%;
   background-position: 50% 20%;
@@ -1549,7 +1549,7 @@ section.cover {
   .section-page.locations .location-map {
     display: table-cell;
     width: 100%;
-    background: url(images/map-img.png);
+    background: url(/assets/images/map-img.png);
     background-size: 100%;
     background-repeat: no-repeat;
     background-color: #e95ba1;
@@ -1563,7 +1563,7 @@ section.cover {
         width: 50%; } }
     /* line 35, /Users/bucky/Sites/comicartsbrooklyn/source/assets/stylesheets/components/_locations.scss */
     .section-page.locations .location-map .map {
-      background: url(images/map-img.png);
+      background: url(/assets/images/map-img.png);
       background-size: cover;
       padding-bottom: 100%; }
       @media screen and (min-width: 30em) {

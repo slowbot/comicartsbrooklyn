@@ -1,0 +1,126 @@
+.section-page.featured {
+  background-color: $cool;
+
+  .section-header {
+    color: lighten($cool, 10%);
+  }
+  
+  .container {
+    @include outer-container;
+  }
+
+  .inner {
+    @include span-columns(12);
+    padding: 1rem .75rem;
+
+    @include media($small-media) {
+      padding: 1em;
+    }  
+  }  
+}
+
+.equalheight {
+  @include clearfix;
+}
+
+.featured-article {
+  @include span-columns(12);
+  background-color: rgba(#fff, .95);
+  color: darken($cool, 50%);
+  box-shadow: -3px -3px 0 rgba(0,0,0,.2);
+  border-right: 4px solid rgba($cool, .8);
+  border-bottom: 4px solid rgba($cool, .8);
+  padding: 1.5rem;
+  margin-bottom: .75rem;
+
+  @include media($small-media) {
+    @include span-columns(6);
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    
+    &:nth-child(2n+0) {
+      margin-right: 0;
+    }
+
+    &:nth-child(2n+1) {
+      clear: left;
+    }
+  }
+
+  @include media($medium-media) {
+    @include span-columns(4);
+    
+    &:nth-child(2n+0) {
+      margin-right: 2.35765%;
+    }
+
+    &:nth-child(2n+1) {
+      clear: none;
+    }
+
+    &:nth-child(3n+0) {
+      margin-right: 0;
+    }
+
+    &:nth-child(3n+1) {
+      clear: left;
+    }
+  }  
+
+  &-meta {
+    margin-bottom: 1rem;
+
+    .date {
+      text-transform: uppercase;
+
+      &-day {
+        @include text-size('gamma', 'medium');
+        font-family: $heading-font-family;
+        font-weight: 700;
+        display: inline-block;
+      }
+
+      &-month {
+        @include text-size('gamma', 'medium');
+        font-family: $heading-font-family;
+        font-weight: 700;
+        display: inline-block;
+        color: $cool;
+      }
+    }
+
+    .place {
+      &-title {
+        @include text-size('delta', 'medium');
+        font-family: $base-font-family;
+        font-weight: 600;
+      }
+
+      &-time {
+        @include responsive-text-size('gamma');
+        font-family: $heading-font-family;
+        font-weight: 700;
+        color: $cool;
+      }
+    }
+  }
+
+  &-content {
+    padding-bottom: 1rem;
+
+    h1 {
+      @include text-size('gamma', 'small');
+      font-family: $base-font-family;
+      font-weight: 700;
+      margin-bottom: .5rem;
+
+      @include media($small-media) {
+        @include text-size('delta', 'large');
+      }  
+    }
+
+    p {
+      color: rgba(#000, .6);
+    }
+  }
+}
