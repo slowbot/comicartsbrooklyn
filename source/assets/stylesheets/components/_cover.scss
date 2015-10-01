@@ -14,12 +14,12 @@ section.cover {
   @include media($medium-media) {
     padding: 0;
     height: 600px;
-    background-size: 1200px;
+    background-size: 1025px;
     background-repeat: no-repeat;
   }
 
   @include media($large-media) {
-    
+    background-size: 1200px;
   }  
 
   @include media($x-large-media) {
