@@ -1,0 +1,134 @@
+.section-page.places {
+  background-color: $deep;
+  padding: .5rem 0;
+
+  @include media($medium-media) {
+    margin-top: -170px;
+    position: relative;
+    padding: 0;
+    z-index: 10;
+    background-color: transparent;
+  }
+
+  .section-header {
+    color: lighten($vibrant, 10%);
+  }
+
+  .container {
+    @include outer-container;
+    $double: new-breakpoint(min-width 600px);
+
+    @include media($medium-media) {
+      max-width: 65rem !important;
+    }
+
+    @include media($large-media) {
+      max-width: 75rem !important;
+    }
+
+  .inner {
+    @include span-columns(12);
+
+    @include media($medium-media) {
+      @include shift(0);
+      float: right;
+      width: 60%;
+      padding: 0 1rem;
+    }
+
+    @include media($large-media) {
+      @include shift(0);
+      float: right;
+      width: 60%;
+    }
+  }
+
+  .place-article {
+    @include span-columns(12);
+    margin-bottom: 3rem;
+
+      &:last-of-type {
+        margin-bottom: 0;
+      }
+  
+    @include media($double) {
+      @include span-columns(6);
+      margin-bottom: 0;
+    }
+    
+    @include media($medium-media) {
+      background-color: $deep;
+      padding: 1rem 0;
+      height: 170px;
+    }
+  }
+
+  .program-header {
+    .place-name {
+      @include responsive-text-size('gamma');
+      text-transform: uppercase;
+      text-align: center;
+
+      @include media($medium-media) {
+        @include responsive-text-size('epsilon');
+      }
+    }
+
+    .date {
+      text-transform: uppercase;
+      text-align: center;
+
+      &-day {
+        @include responsive-text-size('beta');
+        font-family: $heading-font-family;
+        font-weight: 800;
+
+        @include media($medium-media) {
+          @include responsive-text-size('gamma');
+        }
+      }
+
+      &-month {
+        @include responsive-text-size('gamma');
+        font-family: $heading-font-family;
+        font-weight: 700;
+      }
+    }
+
+    .place {
+      text-align: center;
+
+      &-title {
+        @include responsive-text-size('delta');
+        font-family: $alt-heading-font-family;
+        font-weight: normal;
+
+        @include media($medium-media) {
+          @include responsive-text-size('epsilon');
+        }  
+      }
+
+      &-sub {
+        @include responsive-text-size('delta');
+        font-family: $heading-font-family;
+        text-transform: uppercase;
+
+        @include media($medium-media) {
+          @include responsive-text-size('epsilon');
+        }
+      }
+
+      &-price {
+        @include responsive-text-size('delta');
+        font-family: $alt-heading-font-family;
+        text-transform: uppercase;
+        font-weight: 700;
+
+        @include media($medium-media) {
+          @include responsive-text-size('epsilon');
+        }
+      }
+    }
+  }
+    }
+}  
