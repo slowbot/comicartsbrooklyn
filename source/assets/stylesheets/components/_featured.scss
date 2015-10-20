@@ -112,6 +112,7 @@
       @include text-size('gamma', 'small');
       font-family: $base-font-family;
       font-weight: 700;
+      line-height: 1;
       margin-bottom: .5rem;
 
       @include media($small-media) {
